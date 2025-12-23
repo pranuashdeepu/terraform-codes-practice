@@ -16,7 +16,7 @@ resource "aws_subnet" "prod" {
   
 }
 resource "aws_subnet" "prod_private" {
-  vpc_id = aws_subnet.prod.id
+  vpc_id = aws_vpc.prod.id
   cidr_block = "10.0.1.0/24"
   tags = {
     Name = "private-subent"
