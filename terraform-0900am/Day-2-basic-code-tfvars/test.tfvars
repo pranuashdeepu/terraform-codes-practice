@@ -1,3 +1,3 @@
-ami_id = "ami-085ad6ae776d8f09c"
+ami_id = "ami-00ca570c1b6d79f36"
 type ="t2.nano"
-key = "ec2test"
+key = "mumbaikeypair"
